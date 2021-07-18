@@ -1,0 +1,27 @@
+.personla{
+    background-color:darkblue ;
+    border-radius: 20px;
+  margin: 10px;
+  border-style:groove ;
+  
+}
+
+
+.tabla{
+
+    
+    height: 40vh;
+
+    justify-content: center;
+}
+
+
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+}

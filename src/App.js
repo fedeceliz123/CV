@@ -9,39 +9,42 @@ import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
 
 function App() {
   return (
-   
-  <BrowserRouter>
-    <div className="container-fluid">
 
-    
+    <BrowserRouter>
+      <div className="container-fluid">
 
 
-     <Navegador></Navegador>
-      
-      
-    <Switch>
-     <Route exact path="/conocimientos">
-      <Conocimientos ></Conocimientos>
-
-     </Route>
-
-     <Route exact path="/datos"> 
-
-     </Route>
-
-     <Route exact path="/"> 
-      <Inicio></Inicio>
-     </Route>
-
-    </Switch>
 
 
-      
-    
-   
-    </div>
-  </BrowserRouter>
-   
+        <Navegador></Navegador>
+
+
+        <Switch>
+          <Route exact path="/conocimientos">
+            <Conocimientos ></Conocimientos>
+
+          </Route>
+
+          <Route exact path="/datos">
+
+          </Route>
+
+          <Route exact path="/">
+
+            <Inicio></Inicio>
+
+
+          </Route>
+
+        </Switch>
+
+
+
+
+
+      </div>
+    </BrowserRouter>
+
   );
 }
 

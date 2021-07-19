@@ -4,6 +4,7 @@ img{
     width: 50px;
     margin-left: 0px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .js{
@@ -13,11 +14,34 @@ img{
 
 .prog{
     border-radius: 20px;
+    margin: 10px;
 }
 
+
+
+.margen{
+    
+  text-align:end;
+}
 h3{
     color: white;
     margin-top: 20px;
     margin-left: 5px;
 }
 
+.textos{
+    color: black;
+    
+}
+.jst{
+    color: black;
+}
+
+.modales{
+    
+    display: flex;
+    background-color: blue;
+    text-align: center  ;
+
+    
+}

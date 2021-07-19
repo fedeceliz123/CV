@@ -34,7 +34,7 @@ h6{
 }
 
 
-img{
+.imagen{
 
    
    
@@ -42,7 +42,8 @@ img{
     cursor: pointer;
     border-style:unset;
     height: 300px;
-    height: 80vh;
+    width: 300px;
+   
     
     
 

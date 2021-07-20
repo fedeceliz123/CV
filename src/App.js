@@ -6,6 +6,10 @@ import Inicio from './inicio/inicio'
 import Datos from './Datos Personales/Datos';
 import Conocimientos from './Conocimientos/Conocimientos';
 import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
+import Estudios from './Estudios/Estudios';
+import Herramientas from './Herramientas/Herramientas';
+import Proyectos from './Proyectos/Proyectos';
+import Contacto from './Contacto/Contacto';
 
 function App() {
   return (
@@ -25,14 +29,39 @@ function App() {
 
           </Route>
 
-          <Route exact path="/datos">
 
-          </Route>
 
           <Route exact path="/">
 
             <Inicio></Inicio>
 
+
+          </Route>
+
+          <Route exact path="/estudios">
+
+            <Estudios></Estudios>
+
+
+          </Route>
+
+          <Route exact path="/herramientas">
+
+
+            <Herramientas></Herramientas>
+
+          </Route>
+          <Route exact path="/proyectos">
+
+
+            <Proyectos></Proyectos>
+
+          </Route>
+
+          <Route exact path="/contactos">
+
+
+            <Contacto></Contacto>
 
           </Route>
 

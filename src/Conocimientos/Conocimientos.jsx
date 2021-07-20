@@ -372,7 +372,11 @@ export default function Conocimientos() {
                     <h1 className="jst">SQL Server <img src="https://w7.pngwing.com/pngs/244/430/png-transparent-microsoft-sql-server-sql-server-management-studio-database-server-microsoft-angle-text-triangle.png" alt='SQL Server' /></h1>
                 </ModalHeader>
                 <ModalBody>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit! Odit dolor recusandae dignissimos esse ipsam, architecto eum alias corrupti consectetur beatae quibusdam nam nostrum, omnis, hic culpa porro assumenda?
+                    Diseño de basa de datos, relaciones entre tablas con primary key y foreign key.<br />
+                    Consultas SQL, vistas.<br />
+                    Importación y exportación de base de datos.<br />
+                    Generar script de base de datos.<br />
+
                 </ModalBody>
                 <ModalFooter>
                     <Button onClick={cerrarModal5}>Cerrar</Button>
@@ -381,10 +385,11 @@ export default function Conocimientos() {
 
             <Modal isOpen={mod6} className="modales">
                 <ModalHeader>
-                    <h1 className="jst">SQL Server <img src="https://w7.pngwing.com/pngs/244/430/png-transparent-microsoft-sql-server-sql-server-management-studio-database-server-microsoft-angle-text-triangle.png" alt='SQL Server' /></h1>
+                    <h1 className="jst">MySQL  <img src="https://codigosql.top/wp-content/uploads/2020/02/base-de-datos-en-mysql-724x1024.png" alt='MySQL' /></h1>
                 </ModalHeader>
                 <ModalBody>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit! Odit dolor recusandae dignissimos esse ipsam, architecto eum alias corrupti consectetur beatae quibusdam nam nostrum, omnis, hic culpa porro assumenda?
+                    Diseño de basa de datos, relaciones entre tablas con primary key y foreign key.<br />
+                    Consultas SQL, vistas.
                 </ModalBody>
                 <ModalFooter>
                     <Button onClick={cerrarModal6}>Cerrar</Button>
@@ -393,10 +398,14 @@ export default function Conocimientos() {
 
             <Modal isOpen={mod7} className="modales">
                 <ModalHeader>
-                    <h1 className="jst">SQL Server <img src="https://w7.pngwing.com/pngs/244/430/png-transparent-microsoft-sql-server-sql-server-management-studio-database-server-microsoft-angle-text-triangle.png" alt='SQL Server' /></h1>
+                    <h1 className="jst">Oracle  <img src="data:image/png;base64,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" alt='Oracle' /></h1>
                 </ModalHeader>
                 <ModalBody>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, suscipit! Odit dolor recusandae dignissimos esse ipsam, architecto eum alias corrupti consectetur beatae quibusdam nam nostrum, omnis, hic culpa porro assumenda?
+                    Diseño de basa de datos, relaciones entre tablas con primary key y foreign key.<br />
+                    Consultas SQL, vistas.<br />
+                    Importación y exportación de base de datos.<br />
+                    Generar script de base de datos.<br />
+
                 </ModalBody>
                 <ModalFooter>
                     <Button onClick={cerrarModal7}>Cerrar</Button>

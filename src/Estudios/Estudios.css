@@ -1,0 +1,28 @@
+.estudio{
+    
+    height: 60vh;
+        width: 95%;
+        background-color:lemonchiffon;
+        border-radius: 2rem;
+        margin: auto;
+}
+
+.grafico{
+
+    
+    margin: 10px,10px,10px,40px;
+    background-color: lemonchiffon;
+    border-radius: 2rem;
+}
+
+.carrera{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.prom{
+    color: black;
+    margin-left: 30px;
+}

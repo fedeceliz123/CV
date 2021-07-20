@@ -59,12 +59,12 @@ export default function Navegador() {
 
         <ul className='bg-primary '>
 
-          <li><Link className='navegar' to="/datos">Datos Pesonales</Link></li>
-          <li><Link className='navegar' to="">Estudios</Link></li>
+          <li><Link className='navegar' to="/">Datos Pesonales</Link></li>
+          <li><Link className='navegar' to="/estudios">Estudios</Link></li>
           <li><Link className='navegar' to="/conocimientos">Conocimientos</Link></li>
-          <li><Link className='navegar' to="">Herramientas</Link></li>
-          <li><Link className='navegar' to="">Proyectos</Link></li>
-          <li><Link className='navegar' to="">Contacto</Link></li>
+          <li><Link className='navegar' to="/herramientas">Herramientas</Link></li>
+          <li><Link className='navegar' to="/proyectos">Proyectos</Link></li>
+          <li><Link className='navegar' to="/contactos">Contacto</Link></li>
 
         </ul>
 

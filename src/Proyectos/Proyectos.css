@@ -1,0 +1,14 @@
+.proyecto{
+    display: block;
+    height: auto;
+    width: 80%;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.textpro{
+    font-weight: bold;
+    font-size: 20px;
+}

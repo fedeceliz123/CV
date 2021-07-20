@@ -7,7 +7,7 @@ import './Estudios.css';
 
 export default function Estudios() {
 
-    const UrlPet = "https://localhost:44365/api/estudios"
+    const UrlPet = "http://fedeceliz.somee.com/api/estudios"
 
     const [data, setData] = useState([]);
 
@@ -87,7 +87,9 @@ export default function Estudios() {
 
 
             </div>
+            <div>
 
+            </div>
         </div>
 
 
